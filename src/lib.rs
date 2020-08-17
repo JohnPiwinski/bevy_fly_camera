@@ -132,7 +132,7 @@ fn camera_movement_system(
 	let axis_v = movement_axis(&keyboard_input, KeyCode::S, KeyCode::W);
 
 	let axis_float =
-		movement_axis(&keyboard_input, KeyCode::Space, KeyCode::LShift);
+		movement_axis(&keyboard_input, KeyCode::E, KeyCode::Q);
 
 	for (options, mut translation, rotation) in &mut query.iter() {
 		let delta_f = forward_walk_vector(rotation)
