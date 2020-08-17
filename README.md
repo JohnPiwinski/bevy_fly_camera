@@ -3,8 +3,8 @@ This is a really basic flying camera bundle and plugin for Bevy. It's useful for
 Keybinds are:
 
 - W / A / S / D - Move along the horizontal plane
-- Shift - Move downward
-- Space - Move upward
+- Q - Move downward
+- E - Move upward
 
 # Example
 
